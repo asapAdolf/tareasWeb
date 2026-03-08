@@ -2,7 +2,7 @@
 
 Un sistema sencillo de gestión de inventario para comercio electrónico desarrollado en Node.js utilizando ES Modules.
 
-## 🗂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:
 
@@ -14,11 +14,11 @@ El proyecto está organizado de la siguiente manera:
 - `src/index.js`: Archivo de entrada ("entry point") que ejecuta casos de uso de prueba mostrados en la consola.
 - `package.json`: Configuración del proyecto de Node.
 
-## 🚀 Requisitos
+## Requisitos
 
 - [Node.js](https://nodejs.org/) instalado en el sistema.
 
-## 💻 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Abre una terminal en la carpeta principal del proyecto.
 2. Dado que no hay dependencias externas, simplemente ejecuta el comando:
@@ -32,7 +32,7 @@ Verás en la consola los resultados de:
 - Verificación de productos agotados.
 - Cálculo de ofertas para la categoría Muebles.
 
-## 🛠 Tecnologías
+##  Tecnologías
 
 - JavaScript (Node.js)
 - ES Modules (`import` / `export`)

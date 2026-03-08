@@ -1,7 +1,7 @@
 import { inventory } from '../data/database.js';
 
 export const filterByCategory = (category) => {
-    return inventory.filter((item) => item.category === category);
+    return inventory.filter((item) => item.categoria === category);
 };
 
 export const hasOutOfStockProducts = () => {
@@ -10,12 +10,12 @@ export const hasOutOfStockProducts = () => {
 
 export const getOffersByCategory = (category) => {
     return inventory
-        .filter((item) => item.category === category)
+        .filter((item) => item.categoria === category)
         .map((item) => {
             return {
-                product: item.product,
-                originalPrice: item.price,
-                salePrice: item.price * 0.80
+                producto: item.producto,
+                originalPrice: item.precio,
+                salePrice: item.precio * 0.80
             };
         });
 };
