@@ -19,3 +19,13 @@ export const getOffersByCategory = (category) => {
             };
         });
 };
+
+export const getProductsSortedByPrice = () => {
+    return [...inventory].sort((a, b) => a.precio - b.precio);
+};
+
+export const printInventoryStatus = () => {
+    inventory.forEach((item) => {
+        console.log(`- ${item.producto}: ${item.stock} en stock (Categoría: ${item.categoria})`);
+    });
+};
