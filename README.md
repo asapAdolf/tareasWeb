@@ -20,12 +20,7 @@ El proyecto está organizado de la siguiente manera:
 
 ## Cómo ejecutar el proyecto
 
-1. Abre una terminal en la carpeta principal del proyecto.
-2. Dado que no hay dependencias externas, simplemente ejecuta el comando:
-
-```bash
-node src/index.js
-```
+1. Abir start.bat
 
 Verás en la consola los resultados de:
 - Filtro de productos de Electrónica.
